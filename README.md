@@ -8,11 +8,7 @@
 </div>
 
 <br />
- 
-## Susbcribe:
-[https://www.youtube.com/@cloudchamp?
-](https://www.youtube.com/@cloudchamp?sub_confirmation=1)
-
+  
 # Deploy Netflix Clone on Cloud using Jenkins - DevSecOps Project!
 
 ### **Phase 1: Initial Setup and Deployment**
@@ -28,7 +24,7 @@
 - Clone your application's code repository onto the EC2 instance:
     
     ```bash
-    git clone https://github.com/N4si/DevSecOps-Project.git
+    git clone  https://github.com/kk4977/Deployment-of-Netfix-clone-DecSecOPs-Project.git
     ```
     
 
@@ -285,7 +281,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/N4si/DevSecOps-Project.git'
+                git branch: 'main', url: 'https://github.com/kk4977/Deployment-of-Netfix-clone-DecSecOPs-Project.git'
             }
         }
         stage("Sonarqube Analysis "){
